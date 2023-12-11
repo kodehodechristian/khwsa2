@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  /* Easier to work with fixed layouts - no need to constantly adjust dimensions when adding padding or borders */
   box-sizing: border-box;
   display: flex;
   justify-content: center;
