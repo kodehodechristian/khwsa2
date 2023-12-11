@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.Div-containing-categories {
+  display: flex;
+  width: 750px;
+  height: 400px;
+  /* To prevent rearranging when changing website size */
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.sedans {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  border-radius: 8px 0px 0px 8px;
+  padding: 40px 40px 0px 40px;
+}
+
+.suvs {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 40px 40px 0px 40px;
+}
+
+.luxury {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  border-radius: 0px 8px 8px 0px;
+  padding: 40px 40px 0px 40px;
+}
+
+#sedan-color {
+  background: hsl(31, 77%, 52%);
+}
+
+#suv-color {
+  background: hsl(184, 100%, 22%);
+}
+
+#luxury-color {
+  background: hsl(179, 100%, 13%);
+}
+
+.logo {
+  height: 30px;
+  width: 50px;
+}
+
+h2 {
+  font-family: "Big Shoulders Display";
+  font-size: xx-large;
+  color: hsl(0, 0%, 95%);
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: "Lexend Deca";
+  font-size: 12px;
+  text-align: left;
+  line-height: 20px;
+  color: hsla(0, 0%, 100%, 0.75);
+  padding-bottom: 55px;
+}
+
+.button-sedans {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: none;
+  max-width: 115px;
+  padding: 10px 0px 10px 0px;
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(31, 77%, 52%);
+}
+
+.button-suvs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: none;
+  max-width: 115px;
+  padding: 10px 0px 10px 0px;
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(184, 100%, 22%);
+}
+
+.button-luxury {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: none;
+  max-width: 115px;
+  padding: 10px 0px 10px 0px;
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(179, 100%, 13%);
+}
